@@ -1,0 +1,15 @@
+
+                                    //£
+
+console.log(document.URL);
+console.log(document.baseURI);
+console.log(document.location);
+console.log(document.location.hostname);
+console.log(document.location.pathname);
+
+console.log(document.head);
+console.log(document.body);
+
+document.body.style.backgroundColor = "brown"                //£
+
+
