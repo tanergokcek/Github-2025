@@ -1,24 +1,20 @@
-/* hata beriyo diye yorum satırına aldım ama hata çözülür.
 
-let lastChild = document.querySelector("ul#listt>li:last-child")  //casilmiyo ama calısır >>html karısık oldugu icin calısmıyor
 
-lastChild.innerHTML = "son oge degisti."
+
+let lastChild = document.querySelector("ul#list>li:last-child")
+console.log(lastChild);
 
 let firstChild = document.querySelector("ul#list>li:first-child")
-firstChild.innerHTML = "ilk oge degisti"
+console.log(firstChild.innerText);
+firstChild.innerText =  "degistiiiiiiiiiiiiiiiiiiiii"
 
-*/
+lastChild.innerHTML = "son oge degistiSSSS"
 
-/* hata veriyo ama cozulur
-
-let ulDOM = document.querySelector("ul#listt")
-let liDOM =document.createElement("li")
-
-liDOM.innerHTML = "Kendi olusturdugumuz Oge"
-
-ulDOM.append(liDOM)
+                                                                        //£££
+let ulDOM = document.querySelector("ul#list")
+let liDOM = document.createElement('li')                          //£££ li nesnesi  olusturur.
+liDOM.innerHTML = "KENDİ OLUSTURDUGUMUZ OGE"
+ulDOM.append(liDOM)                                       //£££ listeye yi  sona ekler  
+//ulDOM.prepend(liDOM)                                      //£basa ekler
 
 console.log(ulDOM.lastChild);
-
-ulDOM.prepend(liDOM)
-*/

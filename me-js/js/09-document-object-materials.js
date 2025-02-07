@@ -12,4 +12,6 @@ console.log(document.body);
 
 document.body.style.backgroundColor = "brown"                //£
 
+// googlea javascript change document style yazarak ulasabilirsin.              //£
+
 

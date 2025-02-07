@@ -1,7 +1,8 @@
-/*  islem yavaslatıyo diye yorum sattırına aldım
-let fullName = prompt("Lutfen Adinizi Giriniz : ")      //£
+
+
+let fullName = prompt("Lutfen Adinizi Giriniz")
 console.log(fullName);
 
-greeting.innerHTML = `${greeting.innerHTML } <small style="color:red"> ${fullName} </small>
+let greeting = document.querySelector("#greeting")
+greeting.innerHTML = `${greeting.innerHTML}  <small style="color:red"> ${fullName} </small>
 `
-*/

@@ -1,41 +1,30 @@
-// ********** Karsilastirma Operatorleri ve Mantiksal Operatorler **********
-// https://www.w3schools.com/js/js_comparisons.asp
 
-let price = "0"
+//genel oku
+
+let price = 100
 let user = "hakan"
 
-// == Eşitse
-console.log("== :", price == 1 )
-console.log("== :", price == 100 )
+console.log("== : ", price == 1);
+console.log("== : ", price == 100);
 
-// === Hem değeri hem de türü eşitse
-console.log("=== :", price === 1 )
-console.log("=== :", price === 100 )
+console.log("== : ", price === 1);
+console.log("== : ", price === 100);
 
-// != Eşit değilse
-console.log(user != "guest" )
+console.log(user != "guest")                                            //£
 
-// < Küçükse
-console.log("price < 100", price < 100)
+console.log("price < 100 ",price < 100);
+console.log("price <= 100 ", price < 100);      // £ 100 un rakam oldguna diger 100 un string olduguna dikkat et
 
-// <= Küçük veya eşitse
-console.log("price <= 100", price <= 100)
+console.log("price > 200", price > 200);
+console.log("price >= 100",price >= 100);
 
-// > Büyükse
-console.log("price > 200", price > 200)
+price= 0
+console.log(price > 0  && user != "quest " );
+console.log(price > 0  || user != "quest " );
 
-// >= Büyük veya eşitse
-console.log("price >= 100", price >= 100)
+user = "quest"
+price = 1 
+console.log(price > 0 && !user == "quest");
 
 
-// && ve
-price = 0
-console.log( price > 0 && user != "guest" )
 
-// || veya
-console.log( price > 0 || user != "guest" )
-
-// ! degil (tersi)
-user = "guest"
-price = 1
-console.log( price > 0 && !user == "guest" )
